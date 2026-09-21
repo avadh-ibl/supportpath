@@ -30287,29 +30287,30 @@ b68(a){var s,r=t.Hd,q=A.V(new A.aS(A.b(a.split("/"),t.s),new A.are(),r),r.i("v.E
 if(q.length>=3&&q[0]==="p"){s=q[2]
 return s==="today"||s==="picture"||s==="pathways"||s==="you"}return a==="/you"},
 aTY(a){$.a5.ok$.push(new A.arg(a))},
-ha(a,b,c){var s,r,q,p,o,n,m="/welcome",l={},k=A.cO(a),j=k.c
-j===$&&A.a()
-s=j.d.c
+ha(a,b,c){var s,r,q,p,o,n,m,l="/welcome",k={},j=A.cO(a),i=j.c
+i===$&&A.a()
+s=i.d.c
 r=s.gcI(s)
 s=$.MI().gO()
 if(s!=null)s.a0x()
-if(b.length!==0)q=b
-else{s=A.arh(r)
-if(s==null)s=m
-q=s}l.a=q
-s=A.dG(q,0,null)
-if(s.gcI(s)===r){q=A.arh(r)
-s=l.a=q==null?m:q}else s=q
-p=A.dG(s,0,null)
-o=p.gcI(p)
-if(A.b68(o)){k.kK(0,s)
+s=b.length!==0
+if(s)q=b
+else{p=A.arh(r)
+if(p==null)p=l
+q=p}k.a=q
+p=A.dG(q,0,null)
+if(p.gcI(p)===r){q=A.arh(r)
+p=k.a=q==null?l:q}else p=q
+o=A.dG(p,0,null)
+n=o.gcI(o)
+if(A.b68(n)){j.kK(0,p)
 A.aTY(c)
-return}n=A.arh(o)
-if(n==null)n=A.arh(r)
-if(n!=null){k.kK(0,n)
-$.a5.ok$.push(new A.ari(l,k,c))
-return}if(j.pj())k.eS()
-else k.kK(0,s)
+return}m=A.arh(n)
+if(m==null)m=A.arh(r)
+if(m!=null){j.kK(0,m)
+$.a5.ok$.push(new A.ari(k,j,c))
+return}if(s)j.kK(0,p)
+else if(i.pj())j.eS()
 A.aTY(c)},
 fa(a){var s=null,r=$.MI().gO()
 if(r!=null)r.n5(A.ara(s,s,s,B.c8,B.ht,B.a2,s,A.y(a,s,s,s,s,s,s),s,B.es,s,s,s,B.q6,s,s,s,s,s,s))},
